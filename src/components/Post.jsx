@@ -14,7 +14,7 @@ export function Post() {
                     </div>
                 </div>
 
-                <time title="11 de Junho às 21:57" dateTime="2023-06-11 21:58:00">Publicado há 1h</time>
+                <time title="06/11/2023 09:56PM" dateTime="2023-06-11 21:56:00">Published 1 hour ago</time>
             </header>
 
             <div className={styles.content}>
@@ -32,14 +32,14 @@ export function Post() {
             </div>
 
             <form className={styles.commentForm}>
-                <strong>Deixe seu feedback</strong>
+                <strong>Give feedback</strong>
 
                 <textarea
-                    placeholder="Deixe um comentário"
+                    placeholder="Comment"
                 />
 
                 <footer>
-                    <button type="submit">Publicar</button>
+                    <button type="submit">Publish</button>
                 </footer>
             </form>
 
