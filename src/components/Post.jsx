@@ -1,3 +1,4 @@
+import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css';
 
@@ -6,10 +7,10 @@ export function Post() {
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <img className={styles.avatar} src="https://github.com/filipe-flop.png" />
+                    <Avatar src="https://github.com/diego3g.png" />
                     <div className={styles.authorInfo}> 
-                        <strong>Filipe Oliveira</strong>
-                        <span>Software Engineer</span>
+                        <strong>Diego Fernandes</strong>
+                        <span>Software Developer</span>
                     </div>
                 </div>
 
@@ -43,8 +44,6 @@ export function Post() {
             </form>
 
             <div className={styles.commentList}>
-                <Comment />
-                <Comment />
                 <Comment />
             </div>
         </article>
