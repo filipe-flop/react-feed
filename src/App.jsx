@@ -9,9 +9,9 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'Software Developer'
+      avatarUrl: 'https://github.com/danilobaj.png',
+      name: 'Danilo Gonçalves',
+      role: 'UX Designer'
     },
     content: [
       {type: 'paragraph', content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'},
@@ -25,9 +25,9 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/maykbrito.png',
-      name: 'Mayk Brito',
-      role: 'UX Designer'
+      avatarUrl: 'https://github.com/monica-gomes.png',
+      name: 'Mônica Gomes',
+      role: 'SAP Analyst'
     },
     content: [
       {type: 'paragraph', content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'},
