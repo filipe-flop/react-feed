@@ -12,18 +12,20 @@ export function Comment({content, onDeleteComment}) {
     }
 
     function handleLikeComment() {
-        setLikeCount(likeCount + 1);
+        setLikeCount((state) => {
+            return state + 1
+        });
     }
 
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://github.com/maykbrito.png"/>
+            <Avatar hasBorder={false} src="https://github.com/filipe-flop.png"/>
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
-                            <strong>Mayk Brito</strong>
+                            <strong>Filipe Oliveira</strong>
                             <time title="06/11/2023 09:57PM" dateTime="2023-06-11 21:58:00">1 hour ago</time>
 
                         </div>
